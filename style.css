@@ -1,0 +1,145 @@
+::selection {
+    color: #d7c0d0;
+    background-color: #000000;
+
+  }
+  header {
+    width: 100%;
+    height: 160vh;
+    background-color: #d7c0d0;
+    display: flex;
+  }
+  .header-left-side {
+    padding: 0 0 0 90px;
+    color: #d7c0d0;
+  }
+  .header-left-side h1 {
+    color: #824c71;
+    line-height: 1.2em;
+    font-size: 78px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400 !important;
+  }
+  .header-left-side h2 {
+    color: #824c71;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+  .header-left-side p {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    /*color: #c1bfbf;*/
+    color: #5a6a39;
+
+    line-height: 2;
+  }
+  button {
+    padding: 20px 10px;
+    border: 2px solid #824c71;
+    background: transparent;
+    width: 47%;
+    color: white;
+    margin-right: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #824c71;
+    transition: 0.7s;
+  }
+  .btn {
+    width: 97%;
+    background-color: #824c71;
+  }
+
+  /* Next & previous buttons */
+.prev, .next {
+  padding: 20px 10px;
+    border: 2px solid #824c71;
+    background: transparent;
+    /*width: 50%;*/
+    width: 97%;
+    color: white;
+    margin-right: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #824c71;
+    transition: 0.7s;
+}
+  .header-left-side h3 {
+    color: #5a6a39;
+    padding-top: 60px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+  }
+
+
+
+  /*right side css*/
+  .header-right-side {
+    padding: 90 0 0 0px;
+  }
+  .header-right-side img {
+    width: 884px;
+    height: 670px;
+    /*width: 400px;
+    height: 300px;*/
+    margin-top: 1%;
+  }
+
+  .header-right-side .cert {
+    width: 400px;
+    height: 300px;
+    margin-top: 1%;
+  }
+  .resume {
+    width: 800px;
+    height: 860px;
+    margin-top: 1%;
+  }
+  .mySlides {
+    width: 800px;
+    height: 700px;
+    margin-top: 1%;
+
+    display: none;
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .text {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #824c71;
+    text-align: center;
+  }
